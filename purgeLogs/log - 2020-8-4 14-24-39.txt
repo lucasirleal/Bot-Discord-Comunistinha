@@ -1,0 +1,135 @@
+Mensagem de [IgorFradi (205817378808791041)] (740258919217365094)
+/purge 30
+Enviado em: Tue Aug 04 2020 14:24:39 GMT-0300 (GMT-03:00)
+
+Mensagem de [Groovy (234395307759108106)] (740258855996489730)
+
+Enviado em: Tue Aug 04 2020 14:24:24 GMT-0300 (GMT-03:00)
+
+Mensagem de [Groovy (234395307759108106)] (740241490726617168)
+
+Enviado em: Tue Aug 04 2020 13:15:24 GMT-0300 (GMT-03:00)
+
+Mensagem de [IgorFradi (205817378808791041)] (740241480622538802)
+-play https://open.spotify.com/playlist/66ByyINCu5XAetvLznTjhq?si=m0g8fbVBTwaSIG_p2P1TBA
+Enviado em: Tue Aug 04 2020 13:15:22 GMT-0300 (GMT-03:00)
+
+Mensagem de [Groovy (234395307759108106)] (739959138230075464)
+<@205817378808791041>
+Enviado em: Mon Aug 03 2020 18:33:26 GMT-0300 (GMT-03:00)
+
+Mensagem de [Groovy (234395307759108106)] (739959063927980113)
+<@205817378808791041>
+Enviado em: Mon Aug 03 2020 18:33:08 GMT-0300 (GMT-03:00)
+
+Mensagem de [Groovy (234395307759108106)] (739959037449207829)
+
+Enviado em: Mon Aug 03 2020 18:33:02 GMT-0300 (GMT-03:00)
+
+Mensagem de [IgorFradi (205817378808791041)] (739959034253148274)
+-play https://www.youtube.com/watch?v=HhcefAq5LRs
+Enviado em: Mon Aug 03 2020 18:33:01 GMT-0300 (GMT-03:00)
+
+Mensagem de [Groovy (234395307759108106)] (739220667240808599)
+
+Enviado em: Sat Aug 01 2020 17:39:01 GMT-0300 (GMT-03:00)
+
+Mensagem de [Groovy (234395307759108106)] (739216201527328829)
+
+Enviado em: Sat Aug 01 2020 17:21:16 GMT-0300 (GMT-03:00)
+
+Mensagem de [IgorFradi (205817378808791041)] (739216200986525778)
+-loop queue
+Enviado em: Sat Aug 01 2020 17:21:16 GMT-0300 (GMT-03:00)
+
+Mensagem de [Groovy (234395307759108106)] (739216183479238787)
+
+Enviado em: Sat Aug 01 2020 17:21:12 GMT-0300 (GMT-03:00)
+
+Mensagem de [IgorFradi (205817378808791041)] (739216182988505169)
+-loop
+Enviado em: Sat Aug 01 2020 17:21:11 GMT-0300 (GMT-03:00)
+
+Mensagem de [IgorFradi (205817378808791041)] (739216175753330708)
+-next
+Enviado em: Sat Aug 01 2020 17:21:10 GMT-0300 (GMT-03:00)
+
+Mensagem de [Groovy (234395307759108106)] (739206162385207476)
+
+Enviado em: Sat Aug 01 2020 16:41:22 GMT-0300 (GMT-03:00)
+
+Mensagem de [IgorFradi (205817378808791041)] (739206160263020734)
+-play https://open.spotify.com/playlist/32uFoqfgNAjUSwUvuANOTy?si=MeC0mF2ZQKiMBKycmaLUqQ
+Enviado em: Sat Aug 01 2020 16:41:22 GMT-0300 (GMT-03:00)
+
+Mensagem de [IgorFradi (205817378808791041)] (739206059402723441)
+-stop
+Enviado em: Sat Aug 01 2020 16:40:58 GMT-0300 (GMT-03:00)
+
+Mensagem de [hardokay (495984804198875136)] (739199700942585856)
+/mute <@495984804198875136> 1m credo
+Enviado em: Sat Aug 01 2020 16:15:42 GMT-0300 (GMT-03:00)
+
+Mensagem de [Groovy (234395307759108106)] (739190678327787711)
+
+Enviado em: Sat Aug 01 2020 15:39:51 GMT-0300 (GMT-03:00)
+
+Mensagem de [IgorFradi (205817378808791041)] (739190677560360960)
+-loop
+Enviado em: Sat Aug 01 2020 15:39:51 GMT-0300 (GMT-03:00)
+
+Mensagem de [IgorFradi (205817378808791041)] (739190664192851968)
+-shuffle
+Enviado em: Sat Aug 01 2020 15:39:47 GMT-0300 (GMT-03:00)
+
+Mensagem de [Groovy (234395307759108106)] (739190657746337825)
+
+Enviado em: Sat Aug 01 2020 15:39:46 GMT-0300 (GMT-03:00)
+
+Mensagem de [IgorFradi (205817378808791041)] (739190656437583884)
+-play https://open.spotify.com/playlist/6eGiXQXgfsOlDV1F13meJB?si=zU8Q0skYSeCJJfdAy4UYlw
+Enviado em: Sat Aug 01 2020 15:39:45 GMT-0300 (GMT-03:00)
+
+Mensagem de [Groovy (234395307759108106)] (739190648652955699)
+```nim
+The queue is empty ;-;```
+Enviado em: Sat Aug 01 2020 15:39:44 GMT-0300 (GMT-03:00)
+
+Mensagem de [IgorFradi (205817378808791041)] (739190647637934121)
+-queue
+Enviado em: Sat Aug 01 2020 15:39:43 GMT-0300 (GMT-03:00)
+
+Mensagem de [IgorFradi (205817378808791041)] (739190638163263593)
+-clear
+Enviado em: Sat Aug 01 2020 15:39:41 GMT-0300 (GMT-03:00)
+
+Mensagem de [Groovy (234395307759108106)] (739190630093291631)
+```nim
+ 1) Cultura Livre | Isca de Polícia | 18/… 51:16 
+ 2) Liniker - Presente | A COLORS SHOW      4:53 
+ 3) XENIA FRANÇA - Miragem | A COLORS SHOW  4:00 
+ 4) Michael Kiwanuka - Solid Ground | A C…  3:57 
+ 5) Zeca Veloso - Todo Homem | A COLORS S…  3:16 
+ 6) Luedji Luna - Acalanto | A COLORS SHOW  3:59 
+ 7) Rincon Sapiência - Mundo Manicongo |…   3:30 
+ 8) Black Pumas - Oct 33 | A COLORS SHOW    5:11 
+ 9) Feng Suave - People Wither | A COLORS…  5:22 
+10) Yazmin Lacey - Own Your Own | A COLOR…  4:30 
+                                                 
+    This is the end of the queue!                
+    Use -play to add more :^)                    
+```
+Enviado em: Sat Aug 01 2020 15:39:39 GMT-0300 (GMT-03:00)
+
+Mensagem de [IgorFradi (205817378808791041)] (739190629053235301)
+-queue
+Enviado em: Sat Aug 01 2020 15:39:39 GMT-0300 (GMT-03:00)
+
+Mensagem de [IgorFradi (205817378808791041)] (739190625676558347)
+-stop
+Enviado em: Sat Aug 01 2020 15:39:38 GMT-0300 (GMT-03:00)
+
+Mensagem de [IgorFradi (205817378808791041)] (739190450161975403)
+-remove
+Enviado em: Sat Aug 01 2020 15:38:56 GMT-0300 (GMT-03:00)
+
