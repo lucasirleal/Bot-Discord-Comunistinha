@@ -54,6 +54,10 @@ module.exports = {
                 //Warns someone and mutes them if enough warns are present.
                 actions.Warn.WarnPerson(args, message);
                 break;
+            case "regras":
+                //Shows a pre-set embed with the rules of the server.
+                actions.OfficialEmbeds.SendRegras(message);
+                break;
             default:
                 //Unkown commands.
                 actions.OfficialEmbeds.SendEmbedToChannel("❓ **Hmm...**\nAcho que esse comando não existe. Ou você ficou dislexo(a).", message.channel);

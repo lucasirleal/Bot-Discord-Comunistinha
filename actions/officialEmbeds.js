@@ -111,5 +111,29 @@ module.exports = {
             .setDescription("❎ **Role removida**\nO membro <@" + memberID + "> perdeu a role <@&" + roleID + ">.");
 
         channel_LogsCar.send(embed);
+    },
+
+    //Quick function to send an embed with the rules.
+    SendRegras: async function (message) {
+        const embed = new Discord.MessageEmbed()
+            .setColor(configs.officialEmbedColor)
+            .setDescription("👩‍⚖️ **Regras**\n\n" +
+        "🍻 Para usar o bar, **tome esses cuidados** *e um copo de água a cada dose*, sob penalidade de ficar bêbado ⚠️\n" +
+        "\n" +
+        "```• Tenha bom senso: \n" +
+        "- Qualquer discurso homofóbico, racista, misógino, xenofóbico, transfóbico é punido com permaban. Também não apoie o bolsonaro, machuque plantas, fale mal de gatos, ou comece a resolver problemas imaginários (esquizofrenia?).\n" +
+        "\n" +
+        "• Não faça spam!\n" +
+        "- Spam é tudo que é chato: divulgação, enviar muitas mensagens, emojis ou símbolos em um curto período, pedir admin ou cargos, ser o Emerson, entre outros.\n" +
+        "\n" +
+        "• Não mencione atoa: \n" +
+        "- Não mencione ninguém sem motivo, principalmente cargos da Staff. As pessoas param o que estão fazendo para visualizar menções!\n" +
+        "\n" +
+        "• Respeite os funcionários do bar: \n" +
+        "- São eles que servem a porcaria da sua bebida, a menos que você queira ficar drogado ou beber algo com cuspe, tenha respeito filho da puta!```\n" +
+        "**Lembre-se:** \n" +
+        "*Cu de bêbado não tem dono.* 🍑");
+
+        message.channel.send(embed);
     }
 };
