@@ -32,5 +32,40 @@ client.on('message', message => {
     separators.MessageHandler.HandleMessage(message);
 });
 
+//Runs everytime someone enters the server.
+client.on('guildMemberAdd', async function (member) {
+
+    //Adding automatic roles.
+    try {
+        //Ranking.
+        await member.roles.add("740243835485159475").then(function () {
+            actions.OfficialEmbeds.SendRoleAddLog(member.id, "740243835485159475");
+        });
+
+        //Lives.
+        await member.roles.add("740258422699851878").then(function () {
+            actions.OfficialEmbeds.SendRoleAddLog(member.id, "740258422699851878");
+        });
+
+        //Videos. 
+        await member.roles.add("740258424738152588").then(function () {
+            actions.OfficialEmbeds.SendRoleAddLog(member.id, "740258424738152588");
+        });
+
+        //Novidades. 
+        await member.roles.add("740258426399227944").then(function () {
+            actions.OfficialEmbeds.SendRoleAddLog(member.id, "740258426399227944");
+        });
+
+        //Documentação. 
+        await member.roles.add("740257718916612242").then(function () {
+            actions.OfficialEmbeds.SendRoleAddLog(member.id, "740257718916612242");
+        });
+
+    } catch (e) {
+        actions.OfficialEmbeds.SendDefaultLog("⛔ **Erro**\nOcorreu algo errado ao adicionar uma nova role para <@" + member.id + ">:\n\n`" + e + "`", "Roles", true);
+    }
+});
+
 //Logins with the bot token.
 client.login(JSONs.Configs.token);
