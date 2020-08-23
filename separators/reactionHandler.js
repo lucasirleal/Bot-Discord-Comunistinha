@@ -3,11 +3,14 @@ const actions = require('../actions')
 const fs = require('fs');
 //JSON paths.
 const path = require('path');
-const pathToConfigs = path.resolve(__dirname, '../JSONs/configs.json');
+const pathToTracker = path.resolve(__dirname, '../JSONs/messageTracker.json');
 
 module.exports = {
     //Handles reaction adding.
     HandleReactionADD: async function (reaction, user) {
+        //JSON objects.
+        messageListener = JSON.parse(fs.readFileSync(pathToTracker).toString());
+
         //Gender options on REGISTER.
         if (reaction.message.id == 740238560980107366) {
             //Ela.
@@ -88,6 +91,26 @@ module.exports = {
                     actions.OfficialEmbeds.SendDefaultLog("⛔ **Erro**\nOcorreu algo errado ao tratar roles do registro.\n\n`" + e + "`", "Roles", true);
                 }
             }
+        }
+
+        //FAQ reactions.
+        else if (messageListener.faq.some(id => id === reaction.message.id.toString())) {
+            //Declines if the reaction was made by the bot.
+            if (reaction.me === user) { return; }
+            //Checking for valid emojis.
+            if (reaction.emoji.name == "👨‍⚖️") {
+                actions.FAQ.FAQ_Regras(reaction);
+            }
+            else if (reaction.emoji.name == "💡") {
+                actions.FAQ.FAQ_Comandos(reaction);
+            }
+            else if (reaction.emoji.name == "🐾") {
+                actions.FAQ.FAQ_Bot(reaction);
+            } else {
+                reaction.remove();
+            }
+
+            reaction.users.remove(user.id);
         }
     },
 

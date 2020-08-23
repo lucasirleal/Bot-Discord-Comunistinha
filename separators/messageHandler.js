@@ -58,6 +58,10 @@ module.exports = {
                 //Shows a pre-set embed with the rules of the server.
                 actions.OfficialEmbeds.SendRegras(message);
                 break;
+            case "faq":
+                //Shows a interactive embed with frequent asked questions.
+                actions.FAQ.FAQ_Construct(message);
+                break;
             default:
                 //Unkown commands.
                 actions.OfficialEmbeds.SendEmbedToChannel("❓ **Hmm...**\nAcho que esse comando não existe. Ou você ficou dislexo(a).", message.channel);
