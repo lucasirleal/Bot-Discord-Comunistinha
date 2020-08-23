@@ -6,3 +6,4 @@ exports.Kick = require('./kick.js');
 exports.Ban = require('./ban.js');
 exports.Warn = require('./warn.js');
 exports.FAQ = require('./faq.js');
+exports.Dicas = require('./dicas.js');

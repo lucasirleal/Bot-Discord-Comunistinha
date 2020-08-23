@@ -59,8 +59,12 @@ module.exports = {
                 actions.OfficialEmbeds.SendRegras(message);
                 break;
             case "faq":
-                //Shows a interactive embed with frequent asked questions.
+                //Shows an interactive embed with frequent asked questions.
                 actions.FAQ.FAQ_Construct(message);
+                break;
+            case "dicas":
+                //Shows an interactive embed with dicas.
+                actions.Dicas.Dicas_Construct(message);
                 break;
             default:
                 //Unkown commands.

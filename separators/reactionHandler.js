@@ -112,6 +112,32 @@ module.exports = {
 
             reaction.users.remove(user.id);
         }
+
+        //Dicas reactions.
+        else if (messageListener.dicas.some(id => id === reaction.message.id.toString())) {
+            //Declines if the reaction was made by the bot.
+            if (reaction.me === user) { return; }
+            //Checking for valid emojis.
+            if (reaction.emoji.name == "🟤") {
+                actions.Dicas.Dicas_1(reaction);
+            }
+            else if (reaction.emoji.name == "🔵") {
+                actions.Dicas.Dicas_2(reaction);
+            }
+            else if (reaction.emoji.name == "🟢") {
+                actions.Dicas.Dicas_3(reaction);
+            }
+            else if (reaction.emoji.name == "🟡") {
+                actions.Dicas.Dicas_4(reaction);
+            }
+            else if (reaction.emoji.name == "🟣") {
+                actions.Dicas.Dicas_5(reaction);
+            } else {
+                reaction.remove();
+            }
+
+            reaction.users.remove(user.id);
+        }
     },
 
     //Handles reaction removing.
