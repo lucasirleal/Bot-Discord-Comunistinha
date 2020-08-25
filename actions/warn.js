@@ -59,6 +59,10 @@ module.exports = {
             //JSON objects.
             var tracker = JSON.parse(fs.readFileSync(pathToTracker).toString());
 
+            if (!tracker.hasOwnProperty(member.id)) {
+                tracker["" + member.id] = new Array();
+            }
+
             //The warn tracker stores only the timestamp of the infraction, when it is old enough, we'll just remove it.
             tracker["" + member.id].push(Math.floor(Date.now() / 1000).toString());
 
@@ -73,7 +77,7 @@ module.exports = {
                     for (var key2 in tracker[key]) {
                         if (tracker[key].hasOwnProperty(key2)) {
 
-                            if (key != member.id) {
+                            if (key != member.id || tracker[key][key2] == null) {
                                 continue;
                             }
 

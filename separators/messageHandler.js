@@ -13,6 +13,11 @@ module.exports = {
         //Loads in the selected prefix for the bot.
         var prefix = configs.prefix;
 
+        /*Accounting for gained XP.
+        if (!message.author.bot) {
+            actions.Level.HandleXP(message);
+        }*/
+
         //If the message given doesn't start with the prefix, we just ignore it.
         if (!message.content.startsWith(prefix) || message.author.bot) return;
 
@@ -21,8 +26,10 @@ module.exports = {
         const command = args.shift().toLowerCase();
         //Checking for permissions.
         if (!message.member.hasPermission('ADMINISTRATOR')) {
-            actions.OfficialEmbeds.SendEmbedToChannel("⛔ **Ops...**\nAqui é comunismo mas isso você não pode fazer.", message.channel);
-            return;
+            if (command != "regras" || command != "faq" || command != "dicas") {
+                actions.OfficialEmbeds.SendEmbedToChannel("⛔ **Ops...**\nAqui é comunismo mas isso você não pode fazer.", message.channel);
+                return;
+            }
         }
 
         switch (command) {
