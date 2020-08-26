@@ -13,10 +13,10 @@ module.exports = {
         //Loads in the selected prefix for the bot.
         var prefix = configs.prefix;
 
-        /*Accounting for gained XP.
+        //Accounting for gained XP.
         if (!message.author.bot) {
-            actions.Level.HandleXP(message);
-        }*/
+            await actions.Level.HandleXP(message);
+        }
 
         //If the message given doesn't start with the prefix, we just ignore it.
         if (!message.content.startsWith(prefix) || message.author.bot) return;
@@ -26,7 +26,7 @@ module.exports = {
         const command = args.shift().toLowerCase();
         //Checking for permissions.
         if (!message.member.hasPermission('ADMINISTRATOR')) {
-            if (command != "regras" || command != "faq" || command != "dicas") {
+            if (command != "regras" || command != "faq" || command != "dicas" || command != "rank") {
                 actions.OfficialEmbeds.SendEmbedToChannel("⛔ **Ops...**\nAqui é comunismo mas isso você não pode fazer.", message.channel);
                 return;
             }
@@ -72,6 +72,14 @@ module.exports = {
             case "dicas":
                 //Shows an interactive embed with dicas.
                 actions.Dicas.Dicas_Construct(message);
+                break;
+            case "rank":
+                //Shows the player rank.
+                actions.Level.Rank(args, message);
+                break;
+            case "top":
+                //Shows the highest ranked people.
+                actions.Level.Top(message);
                 break;
             default:
                 //Unkown commands.
