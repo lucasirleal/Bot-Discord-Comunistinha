@@ -26,7 +26,7 @@ module.exports = {
         const command = args.shift().toLowerCase();
         //Checking for permissions.
         if (!message.member.hasPermission('ADMINISTRATOR')) {
-            if (command != "regras" || command != "faq" || command != "dicas" || command != "rank") {
+            if (command != "regras" && command != "faq" && command != "dicas" && command != "rank" && command != "top") {
                 actions.OfficialEmbeds.SendEmbedToChannel("⛔ **Ops...**\nAqui é comunismo mas isso você não pode fazer.", message.channel);
                 return;
             }
